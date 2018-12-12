@@ -108,6 +108,7 @@ export default class TeXBlock extends Component {
         style={{ position: editMode ?
           'relative' : undefined,
         }}
+        className={editMode?'editing-mode':''}
       >
         {input}
         <div
